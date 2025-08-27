@@ -1,0 +1,277 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header p{
+	font-size: 1.5em;
+	padding: 2.2em;
+	font-weight:bold;
+}
+
+header {
+	background: url(../img/chicken-scales.jpg) no-repeat left top #669999;
+	height: 15%;
+}
+
+nav{
+	background-color: rgba(0, 0, 77, 0.2);
+	padding-left: 1em;
+}
+
+nav ul{
+	color:#ccffff;
+	font-weight: bold;
+	padding: 5px 5%;
+	text-align: center;
+}
+
+nav li{
+	display:inline;
+	list-style-type:none;
+	padding: 0 5.5em 0 5.5em;
+	font-size: 110%;
+}
+
+nav li a{
+	color: white;
+	text-decoration: none;
+}
+
+
+body{
+	/*padding: 2% 2% 0 2%;*/
+	color: white;
+	font-family: sans-serif italic;
+	background: url(../img/hintergrundV.jpg) no-repeat left top #d8be9b;
+}
+
+article.start h1,p{
+	text-align: right;
+	font-size:3em;
+	padding-bottom: 0.7em;
+
+}
+article.start{
+	margin : 20%;
+}
+
+
+ article.rest{
+	text-align: center;
+	font-size:2em;
+	padding-bottom: 0.7em;
+	margin-top: 5%;
+}
+article.rest p{
+	font-size: 0.5em;
+}
+
+
+
+table{
+	font-size: 0.7em;
+	text-align:center;
+	margin: auto;
+	width: 80%;
+}
+
+th{
+	background-color: lightrey;
+	padding: 1.2em;
+	width:13.3%;
+}
+
+td{
+	padding: 1.2em;
+	background-color: rgba(51, 153, 102, 0.5);
+	width:13.3%;
+}
+
+ul{
+	padding-top: 5%;
+}
+
+
+form{
+	width: 100%;
+	margin-left: 33%;
+	text-align: left;
+}
+
+.formular{
+	font-size:.8em;
+	color: lightgrey;
+	background: rgba(0, 0, 77, 0.2);
+
+	padding : 2%;
+}
+.container{
+	
+	display:flex;
+	background: rgba(0, 0, 77, 0.2);
+}
+.lieferAbholForm1{
+	font-size:.8em;
+	color: lightgrey;
+	margin-left: 40%;
+	padding : 2%;
+}
+.lieferAbholForm2{
+	font-size:.8em;
+	color: lightgrey;
+	padding : 2%;
+}
+
+.lieferAbholForm{
+	font-size:.8em;
+	color: lightgrey;
+	background: rgba(0, 0, 77, 0.2);
+	padding : 2%;
+}
+
+
+}
+label.h2{
+	width: 100%;
+	padding-bottom:1%;
+}
+form{
+	width: 40%;
+}
+input,
+label {
+	float: left;
+	width: 40%;
+}
+
+input {
+	color: white;
+	margin: 0 0 1em .2em;
+	padding: .2em .5em;
+	background-color: rgba(230, 230, 255, 0.2);
+	border: 1px solid rgb(0, 38, 77);
+}
+
+textarea {
+	caret-color: blue;
+	width: 22em;
+	height: 5em;
+	border: 1px solid #cccccc;
+	padding: 0.5em;
+	font-family: Tahoma, sans-serif;
+}
+
+textarea:focus {
+	background: rgb(230, 255, 230);
+}
+
+
+button {
+	margin-top: 1.5em;
+	width: 40%;
+	height: 3%;
+}
+
+figur, figcaption {
+	margin: 0; 
+	padding: 0;
+}
+
+figure.einzel{
+	position:relative;
+	margin: 1%;
+	width: 32.9%;
+	display: inline-block;
+}
+
+figure img{
+	width: 100%;
+	display: block;
+}
+
+figcaption{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	line-height: 1.5em;
+	color: white;
+	background: rgba(0,0,0,0.5);
+}
+
+.gesamt{
+	position: relative;
+	color: white;
+}
+
+
+h5{
+	float:left;
+}
+
+.profil{
+	text-align:left;
+	padding-left:20%;
+	padding-top:2%;
+	margin:auto;
+	width:40%;
+}
+
+.profilbild{
+	width:30%;
+	margin-left: 10%;
+}
+
+
+
+.comment{
+	height:10%;
+	text-align:left;
+}
+
+.comment strong{
+	font-size: .55em;
+	padding-left:1%;
+}
+
+.comment p{
+	float:;
+	width:40%;
+	padding-left:37%;
+	text-align:left;
+
+}
+.profilepic{
+	width:3%;
+	border-radius:50%;
+	float:left;
+	margin-left:33%;
+}
+
+.formular1{
+	font-size:1.2em;
+	color: lightgrey;
+	background: rgba(0, 0, 77, 0.2);
+	padding : 2%;
+	text-align:left;
+}
+
+.platz1{
+	height:21%;
+}
+
+a{
+	color: white;
+}
+
+footer{
+	height: 80px;
+	background:  rgba(0, 0, 77, 0.5);
+}
+ 
+ footer p{
+	 font-size: 100%;
+	 text-align: left;
+	 padding: 2em;
+ }
